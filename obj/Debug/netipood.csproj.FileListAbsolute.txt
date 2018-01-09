@@ -8,3 +8,12 @@ C:\Users\Kasutaja\Desktop\visual studio\netipood\netipood\obj\Debug\netipood.csp
 C:\Users\Kasutaja\Desktop\visual studio\netipood\netipood\obj\Debug\netipood.csproj.CoreCompileInputs.cache
 C:\Users\Kasutaja\Desktop\visual studio\netipood\netipood\obj\Debug\netipood.exe
 C:\Users\Kasutaja\Desktop\visual studio\netipood\netipood\obj\Debug\netipood.pdb
+C:\Users\opilane\Desktop\netipood\bin\Debug\netipood.exe.config
+C:\Users\opilane\Desktop\netipood\bin\Debug\netipood.exe
+C:\Users\opilane\Desktop\netipood\bin\Debug\netipood.pdb
+C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.csprojResolveAssemblyReference.cache
+C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.Form1.resources
+C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.Properties.Resources.resources
+C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.csproj.GenerateResource.Cache
+C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.exe
+C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.pdb
