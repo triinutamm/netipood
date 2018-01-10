@@ -17,3 +17,13 @@ C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.Properties.Resources.resour
 C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.csproj.GenerateResource.Cache
 C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.exe
 C:\Users\opilane\Desktop\netipood\obj\Debug\netipood.pdb
+C:\Users\Kasutaja\Desktop\Projects\netipood\bin\Debug\netipood.exe.config
+C:\Users\Kasutaja\Desktop\Projects\netipood\bin\Debug\netipood.exe
+C:\Users\Kasutaja\Desktop\Projects\netipood\bin\Debug\netipood.pdb
+C:\Users\Kasutaja\Desktop\Projects\netipood\obj\Debug\netipood.csprojResolveAssemblyReference.cache
+C:\Users\Kasutaja\Desktop\Projects\netipood\obj\Debug\netipood.Form1.resources
+C:\Users\Kasutaja\Desktop\Projects\netipood\obj\Debug\netipood.Properties.Resources.resources
+C:\Users\Kasutaja\Desktop\Projects\netipood\obj\Debug\netipood.csproj.GenerateResource.Cache
+C:\Users\Kasutaja\Desktop\Projects\netipood\obj\Debug\netipood.csproj.CoreCompileInputs.cache
+C:\Users\Kasutaja\Desktop\Projects\netipood\obj\Debug\netipood.exe
+C:\Users\Kasutaja\Desktop\Projects\netipood\obj\Debug\netipood.pdb

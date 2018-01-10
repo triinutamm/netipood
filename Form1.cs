@@ -12,6 +12,8 @@ namespace netipood
 {
     public partial class Form1 : Form
     {
+        public string kohvikogus = "õõõ";
+
         public Form1()
         {
             InitializeComponent();
@@ -53,6 +55,43 @@ namespace netipood
         }
 
         private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void numericUpDown1_ValueChanged_1(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string kohvisort;
+            if (checkBox1.Checked)
+            {
+                kohvisort = "Americano";
+                label13.Text = kohvisort;
+                int kohvikogusx = Convert.ToInt32(numericUpDown1.Value);
+                label20.Text = kohvikogusx.ToString();
+            }
+            if (checkBox2.Checked)
+            {
+                kohvisort = "Cappuccino";
+                label14.Text = kohvisort;
+                int kohvikogusx = Convert.ToInt32(numericUpDown2.Value);
+                label21.Text = kohvikogusx.ToString();
+            }
+            if (checkBox3.Checked)
+            {
+                kohvisort = "Caffe Latte";
+                label15.Text = kohvisort;
+                int kohvikogusx = Convert.ToInt32(numericUpDown3.Value);
+                label22.Text = kohvikogusx.ToString();
+            }
+            tabControl1.SelectedIndex = 1;
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
         {
 
         }
