@@ -33,15 +33,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-<<<<<<< HEAD
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-=======
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -57,12 +54,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-<<<<<<< HEAD
             this.label29 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-=======
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.telnr_txt = new System.Windows.Forms.TextBox();
@@ -94,17 +88,11 @@
             this.label13 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-<<<<<<< HEAD
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label31 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-=======
-            this.button3 = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -112,16 +100,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.tabPage2.SuspendLayout();
-<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-=======
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.SuspendLayout();
             // 
             // label1
@@ -176,7 +160,6 @@
             this.tabPage1.Text = "Tooted";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-<<<<<<< HEAD
             // label28
             // 
             this.label28.AutoSize = true;
@@ -254,16 +237,6 @@
             this.checkBox3.Location = new System.Drawing.Point(492, 176);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(136, 39);
-=======
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.checkBox3.Location = new System.Drawing.Point(383, 177);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(192, 41);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.checkBox3.TabIndex = 32;
             this.checkBox3.Text = "Caffe Latte";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -271,19 +244,11 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-<<<<<<< HEAD
             this.checkBox2.Font = new System.Drawing.Font("Cookie", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.checkBox2.Location = new System.Drawing.Point(256, 176);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(143, 39);
-=======
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.checkBox2.Location = new System.Drawing.Point(209, 176);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(206, 41);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.checkBox2.TabIndex = 31;
             this.checkBox2.Text = "Cappuccino";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -291,38 +256,22 @@
             // label10
             // 
             this.label10.AutoSize = true;
-<<<<<<< HEAD
             this.label10.Font = new System.Drawing.Font("Cookie", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Location = new System.Drawing.Point(31, 124);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(119, 35);
-=======
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(31, 124);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(169, 37);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.label10.TabIndex = 30;
             this.label10.Text = "Vali tooted";
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-<<<<<<< HEAD
             this.checkBox1.Font = new System.Drawing.Font("Cookie", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.checkBox1.Location = new System.Drawing.Point(35, 176);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(135, 39);
-=======
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.checkBox1.Location = new System.Drawing.Point(35, 181);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(162, 35);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.checkBox1.TabIndex = 27;
             this.checkBox1.Text = "Americano";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -330,60 +279,35 @@
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-<<<<<<< HEAD
             this.button2.Font = new System.Drawing.Font("Cookie", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.Location = new System.Drawing.Point(492, 444);
-=======
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(489, 434);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(175, 47);
             this.button2.TabIndex = 26;
             this.button2.Text = "Lisa ostukorvi";
             this.button2.UseVisualStyleBackColor = true;
-<<<<<<< HEAD
             this.button2.Click += new System.EventHandler(this.button2_Click);
-=======
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-<<<<<<< HEAD
             this.label7.Font = new System.Drawing.Font("Cookie", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label7.Location = new System.Drawing.Point(523, 383);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(69, 21);
-=======
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(379, 373);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(97, 24);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.label7.TabIndex = 25;
             this.label7.Text = "Vali kogus";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-<<<<<<< HEAD
             this.label8.Font = new System.Drawing.Font("Cookie", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label8.Location = new System.Drawing.Point(291, 383);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(69, 21);
-=======
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(205, 373);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(97, 24);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.label8.TabIndex = 24;
             this.label8.Text = "Vali kogus";
             // 
@@ -392,15 +316,9 @@
             this.numericUpDown3.BackColor = System.Drawing.SystemColors.InfoText;
             this.numericUpDown3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericUpDown3.ForeColor = System.Drawing.SystemColors.Info;
-<<<<<<< HEAD
             this.numericUpDown3.Location = new System.Drawing.Point(527, 407);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(65, 29);
-=======
-            this.numericUpDown3.Location = new System.Drawing.Point(383, 409);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(53, 20);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.numericUpDown3.TabIndex = 23;
             // 
             // numericUpDown2
@@ -408,15 +326,9 @@
             this.numericUpDown2.BackColor = System.Drawing.SystemColors.InfoText;
             this.numericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericUpDown2.ForeColor = System.Drawing.SystemColors.Info;
-<<<<<<< HEAD
             this.numericUpDown2.Location = new System.Drawing.Point(295, 407);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(65, 29);
-=======
-            this.numericUpDown2.Location = new System.Drawing.Point(209, 405);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(53, 20);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.numericUpDown2.TabIndex = 22;
             // 
             // numericUpDown1
@@ -424,46 +336,27 @@
             this.numericUpDown1.BackColor = System.Drawing.SystemColors.InfoText;
             this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.numericUpDown1.ForeColor = System.Drawing.SystemColors.Info;
-<<<<<<< HEAD
             this.numericUpDown1.Location = new System.Drawing.Point(72, 407);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(65, 29);
             this.numericUpDown1.TabIndex = 21;
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged_1);
-=======
-            this.numericUpDown1.Location = new System.Drawing.Point(35, 397);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(53, 20);
-            this.numericUpDown1.TabIndex = 21;
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-<<<<<<< HEAD
             this.label9.Font = new System.Drawing.Font("Cookie", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label9.Location = new System.Drawing.Point(68, 383);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(69, 21);
-=======
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(31, 373);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(97, 24);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.label9.TabIndex = 20;
             this.label9.Text = "Vali kogus";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-<<<<<<< HEAD
             this.pictureBox3.Location = new System.Drawing.Point(489, 221);
-=======
-            this.pictureBox3.Location = new System.Drawing.Point(383, 222);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(136, 119);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -473,11 +366,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-<<<<<<< HEAD
             this.pictureBox2.Location = new System.Drawing.Point(256, 220);
-=======
-            this.pictureBox2.Location = new System.Drawing.Point(209, 221);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(136, 120);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -497,13 +386,9 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Black;
-<<<<<<< HEAD
             this.tabPage2.Controls.Add(this.label29);
             this.tabPage2.Controls.Add(this.button3);
             this.tabPage2.Controls.Add(this.pictureBox6);
-=======
-            this.tabPage2.Controls.Add(this.button3);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.pictureBox1);
             this.tabPage2.Controls.Add(this.telnr_txt);
@@ -523,19 +408,6 @@
             this.tabPage2.Size = new System.Drawing.Size(670, 489);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Andmed";
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click_1);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(50, 44);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(301, 39);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "Tellimuse andmed";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label29
             // 
@@ -610,30 +482,20 @@
             // label6
             // 
             this.label6.AutoSize = true;
-<<<<<<< HEAD
             this.label6.Font = new System.Drawing.Font("Cookie", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(39, 397);
-=======
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(53, 232);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(142, 31);
+            this.label6.Size = new System.Drawing.Size(98, 30);
             this.label6.TabIndex = 9;
             this.label6.Text = "Telefoni nr";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-<<<<<<< HEAD
             this.label5.Font = new System.Drawing.Font("Cookie", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(39, 362);
-=======
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(53, 202);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 31);
+            this.label5.Size = new System.Drawing.Size(75, 30);
             this.label5.TabIndex = 8;
             this.label5.Text = "Aadress";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -650,30 +512,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
-<<<<<<< HEAD
             this.label3.Font = new System.Drawing.Font("Cookie", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(39, 327);
-=======
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(52, 172);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(194, 31);
+            this.label3.Size = new System.Drawing.Size(135, 30);
             this.label3.TabIndex = 6;
             this.label3.Text = "Perekonnanimi";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-<<<<<<< HEAD
             this.label2.Font = new System.Drawing.Font("Cookie", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(39, 292);
-=======
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(52, 141);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 31);
+            this.label2.Size = new System.Drawing.Size(74, 30);
             this.label2.TabIndex = 5;
             this.label2.Text = "Eesnimi";
             // 
@@ -694,15 +546,9 @@
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-<<<<<<< HEAD
             this.button1.Font = new System.Drawing.Font("Cookie", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(460, 412);
-=======
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(423, 409);
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 51);
             this.button1.TabIndex = 0;
@@ -921,7 +767,6 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-<<<<<<< HEAD
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
@@ -942,17 +787,6 @@
             this.label31.Size = new System.Drawing.Size(225, 35);
             this.label31.TabIndex = 38;
             this.label31.Text = "Täname tellimuse eest! ";
-=======
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
-            this.button3.Location = new System.Drawing.Point(87, 431);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Tagasi";
-            this.button3.UseVisualStyleBackColor = true;
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             // 
             // Form1
             // 
@@ -967,10 +801,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-=======
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -979,7 +810,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage3.ResumeLayout(false);
@@ -988,9 +818,6 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-=======
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1029,7 +856,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label11;
-<<<<<<< HEAD
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
@@ -1058,9 +884,6 @@
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.PictureBox pictureBox8;
-=======
-        private System.Windows.Forms.Button button3;
->>>>>>> 834b3e7e609cffa54335058520230f25c9f292ed
     }
 }
 
