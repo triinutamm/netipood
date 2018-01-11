@@ -202,9 +202,9 @@
             this.label26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label26.Location = new System.Drawing.Point(573, 77);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(84, 25);
+            this.label26.Size = new System.Drawing.Size(0, 25);
             this.label26.TabIndex = 37;
-            this.label26.Text = "1 toode";
+            this.label26.Click += new System.EventHandler(this.label26_Click);
             // 
             // button5
             // 
@@ -218,6 +218,7 @@
             this.button5.TabIndex = 36;
             this.button5.Text = "Minu ostukorv";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // pictureBox5
             // 
@@ -417,9 +418,8 @@
             this.label29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label29.Location = new System.Drawing.Point(573, 77);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(84, 25);
+            this.label29.Size = new System.Drawing.Size(0, 25);
             this.label29.TabIndex = 38;
-            this.label29.Text = "1 toode";
             // 
             // button3
             // 
@@ -433,6 +433,7 @@
             this.button3.TabIndex = 37;
             this.button3.Text = "Minu ostukorv";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox6
             // 
@@ -718,6 +719,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "Esita tellimus";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label15
             // 
