@@ -14,14 +14,17 @@ namespace netipood
 {
     public partial class Form1 : Form
     {
-        int tootekogus;
-        int kohvikogus1;
-        int kohvikogus2;
-        int kohvikogus3;
+        int tootekogus = 0;
+        int kohvikogus1 = 0;
+        int kohvikogus2 = 0;
+        int kohvikogus3 = 0;
+        string kohvisort1 = " ";
+        string kohvisort2 = " ";
+        string kohvisort3 = " ";
         string kohvisort;
-        double hind1;
-        double hind2;
-        double hind3;
+        double hind1 = 0;
+        double hind2 = 0;
+        double hind3 = 0;
         double summa;
 
         [DllImport("gdi32.dll")]
@@ -94,21 +97,14 @@ namespace netipood
             AllocFont(font, this.label16, 22);
             AllocFont(font, this.label17, 22);
             AllocFont(font, this.label18, 22);
-            AllocFont(font, this.label19, 22);
-            AllocFont(font, this.label13, 16);
-            AllocFont(font, this.label14, 16);
-            AllocFont(font, this.label15, 16);
             AllocFont(font, this.label16, 16);
             AllocFont(font, this.label17, 16);
             AllocFont(font, this.label18, 16);
-            AllocFont(font, this.label19, 16);
-            AllocFont(font, this.label20, 16);
-            AllocFont(font, this.label21, 16);
-            AllocFont(font, this.label19, 22);
             AllocFont(font, this.button4, 16);
             AllocFont(font, this.label31, 26);
             AllocFont(font, this.tabControl1, 20);
-
+            AllocFont(font, this.label13, 20);
+            AllocFont(font, this.label30, 20);
         }
 
         private void andmedToolStripMenuItem_Click(object sender, EventArgs e)
@@ -158,35 +154,43 @@ namespace netipood
 
         public void button2_Click(object sender, EventArgs e)
         {
-                
+
             if (checkBox1.Checked)
             {
-                kohvisort = "Americano";
-                label13.Text = kohvisort;
+                kohvisort1 = "Americano";
                 kohvikogus1 = Convert.ToInt32(numericUpDown1.Value);
-                label20.Text = kohvikogus1.ToString() + "tk";
                 hind1 = kohvikogus1 * 3.5;
-                label23.Text = hind1.ToString() + "€";
+                listBox1.Items.Add(kohvisort1);
+                listBox1.Items.Add(" ");
+                listBox2.Items.Add(kohvikogus1 + "tk");
+                listBox2.Items.Add(" ");
+                listBox3.Items.Add(hind1 + "€");
+                listBox3.Items.Add(" ");
 
-                
             }
             if (checkBox2.Checked)
             {
-                kohvisort = "Cappuccino";
-                label14.Text = kohvisort;
+                kohvisort2 = "Cappuccino";
                 kohvikogus2 = Convert.ToInt32(numericUpDown2.Value);
-                label21.Text = kohvikogus2.ToString() + "tk";
                 hind2 = kohvikogus2 * 4;
-                label24.Text = hind2.ToString() + "€";
+                listBox1.Items.Add(kohvisort2);
+                listBox1.Items.Add(" ");
+                listBox2.Items.Add(kohvikogus2 + "tk");
+                listBox2.Items.Add(" ");
+                listBox3.Items.Add(hind2 + "€");
+                listBox3.Items.Add(" ");
             }
             if (checkBox3.Checked)
             {
-                kohvisort = "Caffe Latte";
-                label15.Text = kohvisort;
+                kohvisort3 = "Caffe Latte";
                 kohvikogus3 = Convert.ToInt32(numericUpDown3.Value);
-                label22.Text = kohvikogus3.ToString() + "tk";
                 hind3 = kohvikogus3 * 4;
-                label25.Text = hind3.ToString() + "€";
+                listBox1.Items.Add(kohvisort3);
+                listBox1.Items.Add(" ");
+                listBox2.Items.Add(kohvikogus3 + "tk");
+                listBox2.Items.Add(" ");
+                listBox3.Items.Add(hind3 + "€");
+                listBox3.Items.Add(" ");
             }
             summa = hind1 + hind2 + hind3;
             label30.Text = summa.ToString() + "€";
@@ -224,6 +228,12 @@ namespace netipood
         private void button4_Click(object sender, EventArgs e)
         {
             tabControl1.SelectedIndex = 3;
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
         }
     }
 }
