@@ -14,7 +14,10 @@ namespace netipood
 {
     public partial class Form1 : Form
     {
-        public string kohvikogus = "õõõ";
+        int tootekogus;
+        int kohvikogus1;
+        int kohvikogus2;
+        int kohvikogus3;
         string kohvisort;
         double hind1;
         double hind2;
@@ -160,9 +163,9 @@ namespace netipood
             {
                 kohvisort = "Americano";
                 label13.Text = kohvisort;
-                double kohvikogusx = Convert.ToInt32(numericUpDown1.Value);
-                label20.Text = kohvikogusx.ToString() + "tk";
-                hind1 = kohvikogusx * 3.5;
+                kohvikogus1 = Convert.ToInt32(numericUpDown1.Value);
+                label20.Text = kohvikogus1.ToString() + "tk";
+                hind1 = kohvikogus1 * 3.5;
                 label23.Text = hind1.ToString() + "€";
 
                 
@@ -171,22 +174,25 @@ namespace netipood
             {
                 kohvisort = "Cappuccino";
                 label14.Text = kohvisort;
-                double kohvikogusx = Convert.ToInt32(numericUpDown2.Value);
-                label21.Text = kohvikogusx.ToString() + "tk";
-                hind2 = kohvikogusx * 4;
+                kohvikogus2 = Convert.ToInt32(numericUpDown2.Value);
+                label21.Text = kohvikogus2.ToString() + "tk";
+                hind2 = kohvikogus2 * 4;
                 label24.Text = hind2.ToString() + "€";
             }
             if (checkBox3.Checked)
             {
                 kohvisort = "Caffe Latte";
                 label15.Text = kohvisort;
-                double kohvikogusx = Convert.ToInt32(numericUpDown3.Value);
-                label22.Text = kohvikogusx.ToString() + "tk";
-                hind3 = kohvikogusx * 4;
+                kohvikogus3 = Convert.ToInt32(numericUpDown3.Value);
+                label22.Text = kohvikogus3.ToString() + "tk";
+                hind3 = kohvikogus3 * 4;
                 label25.Text = hind3.ToString() + "€";
             }
             summa = hind1 + hind2 + hind3;
             label30.Text = summa.ToString() + "€";
+            tootekogus = kohvikogus1 + kohvikogus2 + kohvikogus3;
+            label26.Text = tootekogus.ToString() + " toodet";
+            label29.Text = tootekogus.ToString() + " toodet";
             tabControl1.SelectedIndex = 1;
         }
 
@@ -198,6 +204,26 @@ namespace netipood
         private void label12_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 2;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 2;
+        }
+
+        private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 3;
         }
     }
 }
