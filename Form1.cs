@@ -66,7 +66,46 @@ namespace netipood
         private void Form1_Load(object sender, EventArgs e)
         {
             loadFont();
-            AllocFont(font, this.label10, 20);
+            AllocFont(font, this.label10, 24);
+            AllocFont(font, this.checkBox1, 24);
+            AllocFont(font, this.label12, 16);
+            AllocFont(font, this.label9, 14);
+            AllocFont(font, this.checkBox2, 24);
+            AllocFont(font, this.label27, 16);
+            AllocFont(font, this.label8, 14);
+            AllocFont(font, this.checkBox3, 24);
+            AllocFont(font, this.label28, 16);
+            AllocFont(font, this.label7, 14);
+            AllocFont(font, this.button2, 26);
+            AllocFont(font, this.button5, 14);
+            AllocFont(font, this.label26, 16);
+            AllocFont(font, this.button3, 14);
+            AllocFont(font, this.label29, 16);
+            AllocFont(font, this.label26, 16);
+            AllocFont(font, this.label11, 26);
+            AllocFont(font, this.label2, 20);
+            AllocFont(font, this.label3, 20);
+            AllocFont(font, this.label5, 20);
+            AllocFont(font, this.label6, 20);
+            AllocFont(font, this.button1, 26);
+            AllocFont(font, this.label16, 22);
+            AllocFont(font, this.label17, 22);
+            AllocFont(font, this.label18, 22);
+            AllocFont(font, this.label19, 22);
+            AllocFont(font, this.label13, 16);
+            AllocFont(font, this.label14, 16);
+            AllocFont(font, this.label15, 16);
+            AllocFont(font, this.label16, 16);
+            AllocFont(font, this.label17, 16);
+            AllocFont(font, this.label18, 16);
+            AllocFont(font, this.label19, 16);
+            AllocFont(font, this.label20, 16);
+            AllocFont(font, this.label21, 16);
+            AllocFont(font, this.label19, 22);
+            AllocFont(font, this.button4, 16);
+            AllocFont(font, this.label31, 26);
+            AllocFont(font, this.tabControl1, 20);
+
         }
 
         private void andmedToolStripMenuItem_Click(object sender, EventArgs e)
