@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Text;
+using System.Runtime.InteropServices;
 
 namespace netipood
 {
@@ -19,14 +21,52 @@ namespace netipood
         double hind3;
         double summa;
 
+        [DllImport("gdi32.dll")]
+        private static extern IntPtr AddFontMemResourceEx(IntPtr pbfont, uint cbfont
+            , IntPtr pdv, [In] ref uint pcFonts);
+
+        FontFamily ff;
+        Font font;
+
         public Form1()
         {
             InitializeComponent();
         }
 
+        private void loadFont()
+        {
+            byte[] fontArray = netipood.Properties.Resources.Cookie_Regular;
+            int dataLength = netipood.Properties.Resources.Cookie_Regular.Length;
+
+            IntPtr ptrData = Marshal.AllocCoTaskMem(dataLength);
+
+            Marshal.Copy(fontArray, 0, ptrData, dataLength);
+
+            uint cFonts = 0;
+
+            AddFontMemResourceEx(ptrData, (uint)fontArray.Length, IntPtr.Zero, ref cFonts);
+
+            PrivateFontCollection pfc = new PrivateFontCollection();
+
+            pfc.AddMemoryFont(ptrData, dataLength);
+
+            Marshal.FreeCoTaskMem(ptrData);
+
+            ff = pfc.Families[0];
+            font = new Font(ff, 15f, FontStyle.Bold);
+        }
+
+        private void AllocFont(Font f, Control c, float size)
+        {
+            FontStyle fontStyle = FontStyle.Regular;
+
+            c.Font = new Font(ff, size, fontStyle);
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            loadFont();
+            AllocFont(font, this.label10, 20);
         }
 
         private void andmedToolStripMenuItem_Click(object sender, EventArgs e)
