@@ -87,9 +87,11 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label32 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -106,6 +108,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -754,6 +757,8 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.Black;
+            this.tabPage4.Controls.Add(this.pictureBox9);
+            this.tabPage4.Controls.Add(this.label32);
             this.tabPage4.Controls.Add(this.label31);
             this.tabPage4.Controls.Add(this.pictureBox8);
             this.tabPage4.Location = new System.Drawing.Point(4, 33);
@@ -763,16 +768,28 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Checkout";
             // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label32.Location = new System.Drawing.Point(12, 240);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(70, 24);
+            this.label32.TabIndex = 39;
+            this.label32.Text = "label32";
+            this.label32.Click += new System.EventHandler(this.label32_Click_1);
+            // 
             // label31
             // 
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label31.Location = new System.Drawing.Point(20, 153);
+            this.label31.Location = new System.Drawing.Point(9, 157);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(355, 37);
+            this.label31.Size = new System.Drawing.Size(318, 37);
             this.label31.TabIndex = 38;
-            this.label31.Text = "Täname tellimuse eest! ";
+            this.label31.Text = "täname tellimus eest!";
+            this.label31.Click += new System.EventHandler(this.label31_Click);
             // 
             // pictureBox8
             // 
@@ -789,6 +806,16 @@
             this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(426, 274);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(205, 186);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 40;
+            this.pictureBox9.TabStop = false;
             // 
             // Form1
             // 
@@ -820,6 +847,7 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -886,6 +914,8 @@
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.PictureBox pictureBox9;
     }
 }
 

@@ -106,8 +106,10 @@ namespace netipood
             AllocFont(font, this.label21, 16);
             AllocFont(font, this.label19, 22);
             AllocFont(font, this.button4, 16);
-            AllocFont(font, this.label31, 26);
+            AllocFont(font, this.label31, 40);
             AllocFont(font, this.tabControl1, 20);
+            AllocFont(font, this.label32, 20);
+            
 
         }
 
@@ -127,7 +129,8 @@ namespace netipood
             string perekonnanimi = prknimi_txt.Text;
             string aadress = aadress_txt.Text;
             string telefon = telnr_txt.Text;
-            //label1.Text = eesnimi;
+            label31.Text = "Täname tellimuse eest, " + eesnimi + "!";
+            label32.Text = "Kuller toimetab tellimuse aadressile: " + aadress;
             tabControl1.SelectedIndex = 2;
         }
 
@@ -223,7 +226,23 @@ namespace netipood
 
         private void button4_Click(object sender, EventArgs e)
         {
+            
             tabControl1.SelectedIndex = 3;
+        }
+
+        private void label32_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label31_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label32_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
