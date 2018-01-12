@@ -199,8 +199,9 @@
             this.label26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label26.Location = new System.Drawing.Point(573, 77);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(0, 25);
+            this.label26.Size = new System.Drawing.Size(90, 25);
             this.label26.TabIndex = 37;
+            this.label26.Text = "0 toodet";
             this.label26.Click += new System.EventHandler(this.label26_Click);
             // 
             // button5
@@ -220,7 +221,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(0, -8);
+            this.pictureBox5.Location = new System.Drawing.Point(0, -16);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(678, 126);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -415,8 +416,9 @@
             this.label29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label29.Location = new System.Drawing.Point(573, 77);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(0, 25);
+            this.label29.Size = new System.Drawing.Size(90, 25);
             this.label29.TabIndex = 38;
+            this.label29.Text = "0 toodet";
             // 
             // button3
             // 
@@ -435,7 +437,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(0, -8);
+            this.pictureBox6.Location = new System.Drawing.Point(0, -16);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(678, 126);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
