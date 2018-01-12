@@ -18,14 +18,30 @@ namespace netipood
         int kohvikogus1 = 0;
         int kohvikogus2 = 0;
         int kohvikogus3 = 0;
-        string kohvisort1 = " ";
-        string kohvisort2 = " ";
-        string kohvisort3 = " ";
-        string kohvisort;
-        double hind1 = 0;
-        double hind2 = 0;
-        double hind3 = 0;
+        int kogus;
+        double hind1;
+        double hind2;
+        double hind3;
         double summa;
+        Kohv americano;
+        Kohv cappuccino;
+        Kohv caffelatte;
+        public void Lisalisti(int kogus, string kohvisort, string kohvikogus, string kohvihind)
+        {
+            if(kogus > 0)
+            {
+                listBox1.Items.Add(kohvisort);
+                listBox1.Items.Add(" ");
+                listBox2.Items.Add(kohvikogus);
+                listBox2.Items.Add(" ");
+                listBox3.Items.Add(kohvihind);
+                listBox3.Items.Add(" ");
+            }
+            else
+            {
+
+            }
+        }
 
         [DllImport("gdi32.dll")]
         private static extern IntPtr AddFontMemResourceEx(IntPtr pbfont, uint cbfont
@@ -72,14 +88,15 @@ namespace netipood
         private void Form1_Load(object sender, EventArgs e)
         {
             loadFont();
+            tabControl1.TabPages.Remove(tabPage4);
             AllocFont(font, this.label10, 24);
-            AllocFont(font, this.checkBox1, 24);
+            //AllocFont(font, this.checkBox1, 24);
             AllocFont(font, this.label12, 16);
             AllocFont(font, this.label9, 14);
-            AllocFont(font, this.checkBox2, 24);
+            //AllocFont(font, this.checkBox2, 24);
             AllocFont(font, this.label27, 16);
             AllocFont(font, this.label8, 14);
-            AllocFont(font, this.checkBox3, 24);
+            //AllocFont(font, this.checkBox3, 24);
             AllocFont(font, this.label28, 16);
             AllocFont(font, this.label7, 14);
             AllocFont(font, this.button2, 26);
@@ -108,6 +125,9 @@ namespace netipood
             AllocFont(font, this.label13, 22);
             AllocFont(font, this.button6, 26);
             AllocFont(font, this.button7, 16);
+            AllocFont(font, this.label14, 26);
+            AllocFont(font, this.label15, 26);
+            AllocFont(font, this.label19, 26);
         }
 
         private void andmedToolStripMenuItem_Click(object sender, EventArgs e)
@@ -122,6 +142,7 @@ namespace netipood
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             string eesnimi = nimi_txt.Text;
             string perekonnanimi = prknimi_txt.Text;
             string aadress = aadress_txt.Text;
@@ -158,43 +179,47 @@ namespace netipood
 
         public void button2_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+            listBox3.Items.Clear();
 
-            if (checkBox1.Checked)
-            {
-                kohvisort1 = "Americano";
-                kohvikogus1 = Convert.ToInt32(numericUpDown1.Value);
-                hind1 = kohvikogus1 * 3.5;
-                listBox1.Items.Add(kohvisort1);
-                listBox1.Items.Add(" ");
-                listBox2.Items.Add(kohvikogus1 + "tk");
-                listBox2.Items.Add(" ");
-                listBox3.Items.Add(hind1 + "€");
-                listBox3.Items.Add(" ");
 
-            }
-            if (checkBox2.Checked)
+            if (numericUpDown1.Value > 0)
             {
-                kohvisort2 = "Cappuccino";
-                kohvikogus2 = Convert.ToInt32(numericUpDown2.Value);
-                hind2 = kohvikogus2 * 4;
-                listBox1.Items.Add(kohvisort2);
-                listBox1.Items.Add(" ");
-                listBox2.Items.Add(kohvikogus2 + "tk");
-                listBox2.Items.Add(" ");
-                listBox3.Items.Add(hind2 + "€");
-                listBox3.Items.Add(" ");
+                kohvikogus1 = kogus =  Convert.ToInt32(numericUpDown1.Value);
+                americano = new Kohv("Americano", kohvikogus1, 3.5);
+                Lisalisti(kogus, americano.kohvisort, americano.kohvikogus, americano.kohvihind);
+                hind1 = americano.hind1;
             }
-            if (checkBox3.Checked)
+            else
             {
-                kohvisort3 = "Caffe Latte";
-                kohvikogus3 = Convert.ToInt32(numericUpDown3.Value);
-                hind3 = kohvikogus3 * 4;
-                listBox1.Items.Add(kohvisort3);
-                listBox1.Items.Add(" ");
-                listBox2.Items.Add(kohvikogus3 + "tk");
-                listBox2.Items.Add(" ");
-                listBox3.Items.Add(hind3 + "€");
-                listBox3.Items.Add(" ");
+                hind1 = 0;
+                kohvikogus1 = 0;
+            }
+            if (numericUpDown2.Value > 0)
+            {
+                kohvikogus2 = kogus = Convert.ToInt32(numericUpDown2.Value);
+                cappuccino = new Kohv("Cappuccino", kohvikogus2, 4.0);
+                Lisalisti(kogus, cappuccino.kohvisort, cappuccino.kohvikogus, cappuccino.kohvihind);
+                hind2 = cappuccino.hind1;
+            }
+            else
+            {
+                hind2 = 0;
+                kohvikogus2 = 0;
+            }
+            if (numericUpDown3.Value > 0)
+            {
+                kohvikogus3 = kogus = Convert.ToInt32(numericUpDown3.Value);
+                caffelatte = new Kohv("Caffe Latte", kohvikogus3, 4.0);
+                Lisalisti(kogus, caffelatte.kohvisort, caffelatte.kohvikogus, caffelatte.kohvihind);
+                hind3 = caffelatte.hind1;
+                
+            }
+            else
+            {
+                hind3 = 0;
+                kohvikogus3 = 0;
             }
             summa = hind1 + hind2 + hind3;
             label30.Text = summa.ToString() + "€";
@@ -231,7 +256,7 @@ namespace netipood
 
         private void button4_Click(object sender, EventArgs e)
         {
-            
+            tabControl1.TabPages.Add(tabPage4);
             tabControl1.SelectedIndex = 3;
         }
 
