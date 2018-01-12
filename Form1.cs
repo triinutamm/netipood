@@ -18,6 +18,9 @@ namespace netipood
         int kohvikogus1 = 0;
         int kohvikogus2 = 0;
         int kohvikogus3 = 0;
+        string kohvikogus1str;
+        string kohvikogus2str;
+        string kohvikogus3str;
         string kohvisort1 = " ";
         string kohvisort2 = " ";
         string kohvisort3 = " ";
@@ -26,7 +29,7 @@ namespace netipood
         double hind2 = 0;
         double hind3 = 0;
         double summa;
-
+        List<string> tooted = new List<string>();
         [DllImport("gdi32.dll")]
         private static extern IntPtr AddFontMemResourceEx(IntPtr pbfont, uint cbfont
             , IntPtr pdv, [In] ref uint pcFonts);
@@ -156,11 +159,15 @@ namespace netipood
 
         public void button2_Click(object sender, EventArgs e)
         {
-
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+            listBox3.Items.Clear();
             if (checkBox1.Checked)
             {
+
                 kohvisort1 = "Americano";
                 kohvikogus1 = Convert.ToInt32(numericUpDown1.Value);
+                kohvikogus1str = kohvikogus1 + "tk";
                 hind1 = kohvikogus1 * 3.5;
                 listBox1.Items.Add(kohvisort1);
                 listBox1.Items.Add(" ");
@@ -170,10 +177,18 @@ namespace netipood
                 listBox3.Items.Add(" ");
 
             }
+            else
+            {
+                hind1 = 0;
+                kohvikogus1 = 0;
+            }
+
             if (checkBox2.Checked)
             {
+
                 kohvisort2 = "Cappuccino";
                 kohvikogus2 = Convert.ToInt32(numericUpDown2.Value);
+                kohvikogus2str = kohvikogus2 + "tk";
                 hind2 = kohvikogus2 * 4;
                 listBox1.Items.Add(kohvisort2);
                 listBox1.Items.Add(" ");
@@ -181,11 +196,19 @@ namespace netipood
                 listBox2.Items.Add(" ");
                 listBox3.Items.Add(hind2 + "€");
                 listBox3.Items.Add(" ");
+
+            }
+            else
+            {
+                hind2 = 0;
+                kohvikogus2 = 0;
             }
             if (checkBox3.Checked)
             {
+
                 kohvisort3 = "Caffe Latte";
                 kohvikogus3 = Convert.ToInt32(numericUpDown3.Value);
+                kohvikogus3str = kohvikogus3 + "tk";
                 hind3 = kohvikogus3 * 4;
                 listBox1.Items.Add(kohvisort3);
                 listBox1.Items.Add(" ");
@@ -194,6 +217,12 @@ namespace netipood
                 listBox3.Items.Add(hind3 + "€");
                 listBox3.Items.Add(" ");
             }
+            else
+            {
+                hind3 = 0;
+                kohvikogus3 = 0;
+            }
+
             summa = hind1 + hind2 + hind3;
             label30.Text = summa.ToString() + "€";
             tootekogus = kohvikogus1 + kohvikogus2 + kohvikogus3;
