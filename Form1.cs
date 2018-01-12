@@ -106,6 +106,8 @@ namespace netipood
             AllocFont(font, this.label32, 20);
             AllocFont(font, this.label30, 20);
             AllocFont(font, this.label13, 22);
+            AllocFont(font, this.button6, 26);
+            AllocFont(font, this.button7, 16);
         }
 
         private void andmedToolStripMenuItem_Click(object sender, EventArgs e)
@@ -250,6 +252,21 @@ namespace netipood
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 0;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 1;
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
 
         }
     }

@@ -86,6 +86,8 @@
             this.label31 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -274,6 +276,7 @@
             this.checkBox1.TabIndex = 27;
             this.checkBox1.Text = "Americano";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // button2
             // 
@@ -385,6 +388,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Black;
+            this.tabPage2.Controls.Add(this.button6);
             this.tabPage2.Controls.Add(this.label29);
             this.tabPage2.Controls.Add(this.button3);
             this.tabPage2.Controls.Add(this.pictureBox6);
@@ -559,6 +563,7 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Black;
+            this.tabPage3.Controls.Add(this.button7);
             this.tabPage3.Controls.Add(this.label13);
             this.tabPage3.Controls.Add(this.listBox3);
             this.tabPage3.Controls.Add(this.listBox2);
@@ -750,6 +755,32 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // button6
+            // 
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Location = new System.Drawing.Point(366, 412);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(99, 51);
+            this.button6.TabIndex = 39;
+            this.button6.Text = "Tagasi";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button7.Location = new System.Drawing.Point(27, 442);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(109, 38);
+            this.button7.TabIndex = 42;
+            this.button7.Text = "Tagasi";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -843,6 +874,8 @@
         private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
 
